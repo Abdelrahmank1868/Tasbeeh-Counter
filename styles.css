@@ -1,5 +1,5 @@
 body {
-  background-image: url(".//images/purple.png");
+  background-image: url(".//images/light.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -7,6 +7,7 @@ body {
 .buttons {
   display: grid;
   place-items: center;
+  margin: auto;
 }
 
 button {
@@ -23,6 +24,9 @@ button {
   color: #ffff;
   font-family: cursive;
   transition: all 0.7s ease;
+  display: grid;
+  place-items: center;
+  margin: auto;
 }
 
 button:hover {
@@ -57,10 +61,10 @@ button:active {
   height: 200px;
   position: absolute;
   bottom: 43%;
-  display: flex;
-  align-items: center;
   justify-content: center;
-  font-size: 50px;
+  text-align: center;
+  margin: auto;
+  font-size: 30px;
 }
 
 .reset {
@@ -69,10 +73,10 @@ button:active {
   position: absolute;
   bottom: 40%;
   left: 35%;
-  display: flex;
-  align-items: center;
   justify-content: center;
+  text-align: center;
   font-size: 18px;
+  margin: auto;
 }
 
 .decrement {
@@ -81,10 +85,10 @@ button:active {
   position: absolute;
   top: 25%;
   left: 35%;
-  display: flex;
-  align-items: center;
   justify-content: center;
+  text-align: center;
   font-size: 30px;
+  margin: auto;
 }
 
 .colour {
@@ -93,8 +97,19 @@ button:active {
   position: absolute;
   top: 35%;
   right: 34%;
-  display: flex;
-  align-items: center;
   justify-content: center;
+  text-align: center;
   font-size: 18px;
+  margin: auto;
+}
+
+input {
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  font-size: 70px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
 }
