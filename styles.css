@@ -113,3 +113,7 @@ input {
   text-align: center;
   margin: auto;
 }
+
+.dark-mode {
+  background-image: url(".//images/dark.png");
+}

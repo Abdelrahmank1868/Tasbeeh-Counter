@@ -22,15 +22,7 @@ function decrementer() {
   input.value = parseInt(input.value) - 1;
 }
 
-function color() {}
-
-// document.body.style.backgroundImage = "url(.//images/blackcurrent.png)";
-// document.body.style.backgroundImage = "url(.//images/blueberry.png)";
-// document.body.style.backgroundImage = "url(.//images/emerald.png)";
-// document.body.style.backgroundImage = "url(.//images/mint.png)";
-// document.body.style.backgroundImage = "url(.//images/paprika.png)";
-// document.body.style.backgroundImage = "url(.//images/peach.png)";
-// document.body.style.backgroundImage = "url(.//images/ruby.png)";
-// document.body.style.backgroundImage = "url(.//images/sea.png)";
-// document.body.style.backgroundImage = "url(.//images/tropical.png)";
-// document.body.style.backgroundImage = "url(.//images/purple.png)";
+function color() {
+  let element = document.body;
+  element.classList.toggle("dark-mode");
+}
